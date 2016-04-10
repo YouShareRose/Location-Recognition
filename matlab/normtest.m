@@ -1,0 +1,11 @@
+%输入向量
+x=[1:6];
+y=x.^2;
+%使用定义求解各阶范数
+N2=sqrt(sum(y));
+Ninf=max(abs(x));
+Nvinf=min(abs(x));
+%使用norm命令求解范数
+n2=norm(x);
+ninf=norm(x,inf);
+nvinf=norm(x,-inf);
