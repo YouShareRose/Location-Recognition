@@ -1,0 +1,4 @@
+figure;
+t=linspace(-pi,pi,20);
+h=stem(t);
+set(h(1).'MaerkerFaceColor','blue')
